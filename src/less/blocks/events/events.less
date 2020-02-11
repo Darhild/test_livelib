@@ -1,0 +1,17 @@
+@import "../../variables";
+
+.events {
+  @supports (display: grid) {
+    @media (min-width: @screen-tablet) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 0;
+    }
+
+    @media (min-width: @screen-desktop) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 24px;
+    }
+  }
+}

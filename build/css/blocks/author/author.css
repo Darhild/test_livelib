@@ -1,0 +1,15 @@
+.author {
+  display: flex;
+  align-items: center;
+}
+.author__photo {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.author__name {
+  font-size: var(--font-size);
+  font-weight: 600;
+}

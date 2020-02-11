@@ -1,0 +1,16 @@
+@supports (display: grid) {
+  @media (min-width: 768px) {
+    .events {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 0;
+    }
+  }
+  @media (min-width: 1440px) {
+    .events {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 24px;
+    }
+  }
+}

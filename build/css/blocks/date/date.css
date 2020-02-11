@@ -1,0 +1,18 @@
+.date {
+  padding: 10px 18px;
+  text-align: center;
+  color: var(--text-secondary);
+  background-color: var(--color-layout-dark);
+  border-radius: 8px 0px 8px 8px;
+}
+.date__day {
+  margin-bottom: 5px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.date__month {
+  font-size: 12px;
+}
+.date__time {
+  font-size: 12px;
+}
